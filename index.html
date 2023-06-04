@@ -1,20 +1,82 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-    <meta charset="">
-    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
-    <meta name = "viewport" conent = "width=device-width, inital scale = 1.0">
-    
 
-
-    <title>  Document  </title>
+    <meta charset="UTF-8">
+    <link rel = 'stylesheet' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap" rel="stylesheet">
+    <title>ABOBUS GAMES</title>
 
 </head>
+
 <body>
-    <h1> 
-        something here
-        
-    </h1>
+    <header class = 'header'>
+        <div class="container">
+            <div class="header-top">
+                <img src="images/logo.png" alt="" class="header-top-logo">
+
+                <nav class="nav">
+                    <a class='nav-link' href="@">Главная</a>
+                    <a class='nav-link' href="@">О нас</a>
+                    <a class='nav-link' href="@">Наши услуги</a>
+                    <a class='nav-link' href="@">Наши работы</a>
+                    <a class='nav-link' href="@">Наша команда</a>
+                    <a class='nav-link' href="@">Контакты</a>
+                </nav>
+            </div>   
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <h1 class="main-title">
+                Знакомьтесь с ABOBUS GAMES
+            </h1>
+
+            <h2 class="main-subtitle">
+                Воплощаем в жизнь все ваши геймерские мечты
+            </h2>
+        </div>
+    </main>
+
+
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1/5</div>
+            <img src="images/zelda.jpg" style="width: 100%" alt="">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2/5</div>
+            <img src="images/cyberpunk.jfif" style="width: 100%" alt="">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3/5</div>
+            <img src="images/DS.jpg" style="width: 100%" alt="">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4/5</div>
+            <img src="images/fnaf.avif" style="width: 100%" alt="">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">5/5</div>
+            <img src="images/poppy.jpg" style="width: 100%" alt="">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
