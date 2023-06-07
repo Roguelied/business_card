@@ -1,3 +1,5 @@
+
+/* общие стили */
 body {
     font-family: 'Geologica', sans-serif;
 }
@@ -10,6 +12,7 @@ body {
     font-weight: 700;
 }
 
+/* стили для хэдера */
 .header {
     background-color: #ffffff;
     padding: 13px 0px;
@@ -68,7 +71,7 @@ body {
 }
 
 
-
+/* стили для карусели */
 .slideshow-container{
     max-width: 1000px;
     position: relative;
@@ -135,4 +138,43 @@ body {
 @keyframes fade{
     from {opacity: .4}
     to {opacity: 1}
+}
+
+/* стили для футэра */
+
+.footer {
+    width: 100%;
+    float: left;
+    padding: 1%;
+    background-color: #008ED8;
+    border-top: 2px solid silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer #social{
+    float: left;
+    width: 50%;
+    text-align: left;
+    font-size: 12px;
+}
+
+footer #social img{
+    margin-right: 30px;
+    float: left;
+}
+
+footer #rights{
+    float: right;
+    width: 50%;
+    text-align: right;
+    font-size: 16px;
+}
+
+footer #contacts{
+    float: center;
+    text-align: center;
+    font-size: 16px;
+    width: 50%;
 }
