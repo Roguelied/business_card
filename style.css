@@ -2,6 +2,8 @@
 /* общие стили */
 body {
     font-family: 'Geologica', sans-serif;
+    background: rgb(208,154,251);
+    background: linear-gradient(151deg, rgba(208,154,251,1) 0%, rgba(180,55,227,1) 100%);
 }
 
 * {
@@ -12,11 +14,21 @@ body {
     font-weight: 700;
 }
 
+h1 {
+    color: #000000;
+    font-size: 60px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 25px;
+    line-height: 15;
+}
+
 /* стили для хэдера */
 .header {
-    background-color: #ffffff;
     padding: 13px 0px;
-
+    background-color: #A351F5;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -49,25 +61,23 @@ body {
 
 
 .main{
-    background-image: url(images/bg.png);
-    height: 100vh;
     background-position: center;
     background-size: cover;
 }
 
 .main-title{
-    color: #008ED8;
-    font-size: 60px;
     padding-top: 230px;
     padding-left: 100px;
 }
 
 .main-subtitle{
-    color: #008ED8;
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 45;
     padding-left: 100px;
+    
+}
+
+.subtitle {
+    float: center;
+    text-align: center;
 }
 
 
@@ -146,8 +156,7 @@ body {
     width: 100%;
     float: left;
     padding: 1%;
-    background-color: #008ED8;
-    border-top: 2px solid silver;
+    background-color: #A351F5;
     display: flex;
     align-items: center;
     justify-content: center;
