@@ -25,10 +25,10 @@ h2 {
     line-height: 5;
 }
 
-p {
-    margin: 0; 
+h3 {
+    font-size: 20px;
+    padding-top: 20px;
 }
-
 
 /* стили для хэдера */
 .header {
@@ -104,21 +104,24 @@ p {
     justify-content: center;
     padding-left: 8%;
     padding: 30px;
+    flex-direction: column;
 }
 
 .flex_item {
     text-align: center;
     display: flex;
     position: relative;
+    flex-direction: column;
 
 }
 
 .image_mini {
     object-fit: cover;
     box-sizing: border-box;
-    width: 195px;
+    /* width: 195px; */
     height: 253px;
-    margin-right: auto;
+    margin: auto;
+    /* margin-right: auto; */
 }
 
 .border {
@@ -135,9 +138,6 @@ p {
     box-sizing: border-box;
 
 }
-
-
-
 
 .prev, .next{
     cursor: pointer;
@@ -158,7 +158,7 @@ p {
     border-radius: 3px 0 0 3px;
 }
 
-.prev:hover, .next:hover {
+.prev:hover, next:hover {
     background-color: #008ED8;
 }
 
