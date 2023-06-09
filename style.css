@@ -88,6 +88,7 @@ h3 {
 
 /* стили для карусели */
 .slideshow-container{
+    padding-top: 30px;
     max-width: 1000px;
     position: relative;
     margin: auto;
@@ -100,7 +101,7 @@ h3 {
     display: grid;
     position: relative;
     text-align: center;
-    grid-template-columns: repeat(4, 15%);
+    grid-template-columns: repeat(4, 20%);
     justify-content: center;
     padding-left: 8%;
     padding: 30px;
@@ -118,7 +119,7 @@ h3 {
 .image_mini {
     object-fit: cover;
     box-sizing: border-box;
-    /* width: 195px; */
+    /* width: 253px; */
     height: 253px;
     margin: auto;
     /* margin-right: auto; */
